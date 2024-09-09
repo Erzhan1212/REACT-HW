@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+}
+div {
+  display: flex;
+
+  justify-content: center;
+}
+.parents {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 800px;
+  height: 120vh;
+  background-color: rgb(239, 237, 237);
+}
+.div-h {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 20px;
+  background-color: #ffffff;
+  font-size: 0.5rem;
+  font-weight: 700;
+  margin: 30px 30px 0 30px;
+  h1 {
+    opacity: 0.5;
+  }
+}
+.container {
+  height: 200px;
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  background-color: #ffffff;
+  margin: 30px 30px 0 30px;
+}
+.image-div {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  img {
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 150px;
+    height: 190px;
+    border-radius: 10px;
+  }
+  img:hover {
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    z-index: 100;
+    cursor: pointer;
+  }
+}
+.corob {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: start;
+}
+.div-color {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  p {
+    opacity: 0.8;
+  }
+  .first {
+    width: 30px;
+    cursor: pointer;
+    height: 30px;
+    background-color: rgba(255, 228, 196, 0.368);
+  }
+  .second {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 0, 255, 0.201);
+  }
+  .third {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(7, 15, 250);
+  }
+  .fourth {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+  }
+}
+.size {
+  display: flex;
+  gap: 10px;
+  p {
+    opacity: 0.8;
+  }
+}
+.fist {
+  width: 30px;
+  cursor: pointer;
+  height: 30px;
+  opacity: 0.5;
+  background-color: rgba(219, 181, 136, 0.607);
+}
+.secon {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(175, 212, 244, 0.241);
+}
+.thirt {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(176, 170, 112, 0.244);
+}
+.fourt {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.268);
+}
+.fi {
+  width: 30px;
+  cursor: pointer;
+  height: 30px;
+  opacity: 0.5;
+  background-color: red;
+}
+.se {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+}
+.thi {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-color: lightblue;
+}
+.fo {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-color: darkgreen;
+}
